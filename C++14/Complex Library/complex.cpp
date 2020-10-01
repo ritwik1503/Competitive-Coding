@@ -1,6 +1,8 @@
 //Implementation of Complex library with operator overloading
 
 #include <bits/stdc++.h>
+//Used for Fast I/O in C++
+#define FAST ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 using namespace std;
 
 //Quite faster than inbuilt-complex C++ library as contains only the functions required
@@ -91,6 +93,9 @@ public:
 
 //Sample program to use above library
 int main() {
+	//This will make the input and output faster in the program
+	FAST;
+	
 	#ifndef ONLINE_JUDGE
 		freopen("inp.txt", "r", stdin);
 	#endif
